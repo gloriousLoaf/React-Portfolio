@@ -20,6 +20,11 @@ nav .nav-item .current {
     max-width: 200px;
 }
 
+/* Card deck on Portfolio page */ 
+.card-img-top {
+    height: 225px;
+}
+
 /* Footer - inside .container to match navbar */
 .footer {
     padding: 1rem;
