@@ -1,2 +1,2 @@
 # Bootstrap-Portfolio
-A portfolio of my work, with CSS and Bootstrap.
+A bio with a portfolio of my work, with CSS and Bootstrap.
