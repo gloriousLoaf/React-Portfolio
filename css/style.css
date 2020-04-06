@@ -1,15 +1,19 @@
+/* Global begin*/ 
 body {
     background-color: #fff0dc;
 }
 
-/* #page-container to push footer to the bottom */ 
+/* #page-container to push down footer, padding-bottom = footer height */ 
 #page-container {
     position: relative;
     min-height: 100vh;
     padding-bottom: 3.5rem;
   }
-/* padding-bottom = height of footer */ 
+/* Global end */ 
 
+nav .nav-item .current {
+    font-weight: bold;
+}
 
 .profile-pic {
     max-height: 200px;
