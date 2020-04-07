@@ -8,9 +8,9 @@ body {
     position: relative;
     min-height: 100vh;
     padding-bottom: 3.5rem;
-  }
-/* Global end */ 
+  } 
 
+/* navbar */ 
 nav .navbar-brand {
     padding-left: 24px;
     color: #fff;
@@ -24,6 +24,7 @@ nav .current {
     font-weight: bold;
 }
 
+/* Selfie */ 
 .profile-pic {
     max-height: 200px;
     max-width: 200px;
@@ -60,6 +61,9 @@ nav .current {
         padding-left: 24px;
         margin-left: auto;
         margin-right: auto;
+    }
+    .nav-link {
+        margin: 0 5px;
     }
 
     /* text alignment */ 
