@@ -11,7 +11,16 @@ body {
   }
 /* Global end */ 
 
-nav .nav-item .current {
+nav .navbar-brand {
+    padding-left: 24px;
+    color: #fff;
+}
+
+nav .navbar-nav {
+    padding-right: 24px;
+}
+
+nav .current {
     font-weight: bold;
 }
 
@@ -25,7 +34,7 @@ nav .nav-item .current {
     height: 225px;
 }
 
-/* Footer - inside .container to match navbar */
+/* Footer inside .container to match navbar */
 .footer {
     padding: 1rem;
     position: absolute;
@@ -34,4 +43,45 @@ nav .nav-item .current {
     height: 3.5rem;
     text-align: center;
     color: #fff;
+}
+
+/* Small screens query */ 
+@media(max-width: 575px) {
+    /* navbar adjustments */ 
+    .navbar-brand {
+        display: block;
+        position: relative;
+        padding-right: 24px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .navbar-nav, .nav-item {
+        display: inline;
+        padding-left: 24px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* text alignment */ 
+    .card-body h2, h5, h6 {
+        text-align: center;
+    }
+    .card-body ul {
+        padding-left: 100px;
+    }
+    .card-body .col {
+        text-align: justify;
+    }
+
+    /* selfie centered */ 
+    .card-body .profile-pic {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Portfolio responsive images */ 
+    .card-img-top {
+        object-fit: cover;
+    }
 }

@@ -15,25 +15,22 @@
 
 <body>
 
+    <!-- page-container pushes footer down, see css -->
     <div class="container">
         <div id="page-container">
+
+            <!-- navbar -->
             <nav class="navbar navbar-expand-lg navbar-light bg-warning">
                 <a class="navbar-brand" href="#">David Metcalf</a>
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="portfolio.html">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link current" href="#">Contact</a>
-                        </li>
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link" href="index.html">About</a>
+                    <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                    <a class="nav-item nav-link current" href="contact.html">Contact</a>
                 </div>
             </nav>
-            <div class="row">
+
+            <!-- Contact form -->
+            <div class="row mt-4">
                 <div class="col-sm-7 m-2">
                     <div class="card">
                         <div class="card-body">
@@ -53,7 +50,8 @@
 
                                 <div class="form-group">
                                     <label>Message</label>
-                                    <textarea class="form-control" placeholder="How can we collaborate?"></textarea>
+                                    <textarea class="form-control thank-you"
+                                        placeholder="How can we collaborate?"></textarea>
                                 </div>
 
                                 <button type="submit" class="btn btn-success">Submit</button>
@@ -61,6 +59,8 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- Thank you card -->
                 <div class="col">
                 </div>
                 <div class="col-sm-4 m-2">

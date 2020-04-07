@@ -14,24 +14,22 @@
 </head>
 
 <body>
+    <!-- page-container pushes footer down, see css -->
     <div class="container">
         <div id="page-container">
 
+            <!-- navbar -->
             <nav class="navbar navbar-expand-lg navbar-light bg-warning">
-                <a class="navbar-brand" href="#">David Metcalf</a>
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link current" href="index.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
+                <a class="navbar-brand" style="color: #fff; font-weight: 600;" href="#">David Metcalf</a>
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link current" href="index.html">About</a>
+                    <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                    <a class="nav-item nav-link" href="contact.html">Contact</a>
+                </div>
             </nav>
 
-            <div class="row">
+            <!-- Bio card with selfie -->
+            <div class="row mt-4">
                 <div class="col-sm-7 m-2">
                     <div class="card p-2">
                         <div class="card-body">
@@ -56,13 +54,17 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- empty col to space things out nicely -->
                 <div class="col">
                 </div>
+
+                <!-- Skills card, same row -->
                 <div class="col-sm-4 m-2">
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Skills</h5>
-                            <h6 class="card-subtitle font-weight-light">Updated Frequently - Never Stop Learning</h6>
+                            <h6 class="card-subtitle font-weight-light">Updated frequently</h6>
                             <hr>
                             <ul>
                                 <li>HTML5</li>
@@ -73,6 +75,8 @@
                     </div>
                 </div>
             </div>
+
+            <!-- footer inside container to trim it to same size as navbar -->
             <div class="footer bg-warning">
                 David Metcalf &copy;2020
             </div>
