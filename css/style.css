@@ -1,4 +1,9 @@
-/* Global begin*/ 
+/* Global */ 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 body {
     background-color: #fff0dc;
 }
@@ -22,6 +27,11 @@ nav .navbar-nav {
 
 nav .current {
     font-weight: bold;
+}
+
+/* Skills card */ 
+.card-body ul {
+    margin-left: 40px;
 }
 
 /* Selfie */ 
@@ -65,7 +75,7 @@ nav .current {
     .nav-link {
         margin: 0 5px;
     }
-
+    
     /* text alignment */ 
     .card-body h2, h5, h6 {
         text-align: center;
