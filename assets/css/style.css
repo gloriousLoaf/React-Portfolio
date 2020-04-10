@@ -29,20 +29,33 @@ nav .current {
     font-weight: bold;
 }
 
-/* Skills card */ 
-.card-body ul {
-    margin-left: 40px;
+/* About card */ 
+.col .m-2, p {
+    margin: 0 10px;
 }
-
-/* Selfie */ 
 .profile-pic {
     max-height: 200px;
     max-width: 200px;
 }
 
-/* Card deck on Portfolio page */ 
+/* Skills card */ 
+.card-body ul {
+    margin-left: 40px;
+}
+
+/* Card deck, Portfolio */ 
 .card-img-top {
     height: 225px;
+}
+
+/* Thank you card, Contact */
+.card-body a {
+    color: #262626;
+    font-weight: 600;
+    text-decoration: none;
+}   
+.card-body a:hover {
+    border-bottom: 2px solid #262626;
 }
 
 /* Footer inside .container to match navbar */
@@ -56,7 +69,7 @@ nav .current {
     color: #fff;
 }
 
-/* Small screens query */ 
+/* Small screens */ 
 @media(max-width: 575px) {
     /* navbar adjustments */ 
     .navbar-brand {
@@ -76,22 +89,27 @@ nav .current {
         margin: 0 5px;
     }
     
-    /* text alignment */ 
+    /* Card text alignment, all pages */ 
     .card-body h2, h5, h6 {
         text-align: center;
     }
     .card-body ul {
-        padding-left: 100px;
+        padding-left: 20px;
     }
     .card-body .col {
         text-align: justify;
     }
 
-    /* selfie centered */ 
+    /* About selfie */ 
     .card-body .profile-pic {
         display: block;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    /* About skills & Contact thank you cards */ 
+    .col-sm-4 {
+        padding-bottom: 20px;
     }
 
     /* Portfolio responsive images */ 
