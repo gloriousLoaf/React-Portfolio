@@ -1,24 +1,32 @@
-/* Global */ 
+/* GLOBAL */ 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 body {
-    background-color: #fff0dc;
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 100px;
 }
 
-/* #page-container to push down footer, padding-bottom = footer height */ 
-#page-container {
-    position: relative;
-    min-height: 100vh;
-    padding-bottom: 3.5rem;
-  } 
+/* 002a46 */ 
 
-/* navbar */ 
+/* NAVBAR */ 
+.navbar {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #9fffcb;
+}
 nav .navbar-brand {
     padding-left: 24px;
     color: #fff;
+    font-weight: 600;
+}
+/* prevents the tiny 1px expansion of navbar on hover */ 
+.navbar-brand:hover {
+    margin-bottom: -1px;
+    cursor: default;
 }
 
 nav .navbar-nav {
@@ -27,6 +35,21 @@ nav .navbar-nav {
 
 nav .current {
     font-weight: bold;
+}
+/* nav-links on right hover effects */ 
+.navbar-nav a:hover {
+    border-bottom: 2px solid #e75a7c;
+}
+/* decrease padding so hover border-bottom
+    doesn't distort size of navbar */ 
+.navbar a:hover {
+    padding-bottom: 6px;
+}
+
+
+/* CARDS */ 
+.card {
+    border: 1px solid #9fffcb;
 }
 
 /* About card */ 
@@ -55,10 +78,11 @@ nav .current {
     text-decoration: none;
 }   
 .card-body a:hover {
-    border-bottom: 2px solid #262626;
+    border-bottom: 2px solid #e75a7c;
 }
 
-/* Footer inside .container to match navbar */
+
+/* FOOTER */
 .footer {
     padding: 1rem;
     position: absolute;
@@ -69,7 +93,8 @@ nav .current {
     color: #fff;
 }
 
-/* Small screens */ 
+
+/* MOBILE */ 
 @media(max-width: 575px) {
     /* navbar adjustments */ 
     .navbar-brand {
