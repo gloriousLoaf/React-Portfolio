@@ -20,25 +20,24 @@ body {
 }
 nav .navbar-brand {
     padding-left: 24px;
-    color: #fff;
     font-weight: 600;
 }
-/* prevents the tiny 1px expansion of navbar on hover */ 
+/* prevents the tiny 1px expansion of navbar on hover,
+    which was driving me crazy. also no cursor change */ 
 .navbar-brand:hover {
     margin-bottom: -1px;
     cursor: default;
 }
-
 nav .navbar-nav {
     padding-right: 24px;
 }
-
 nav .current {
     font-weight: bold;
 }
 /* nav-links on right hover effects */ 
 .navbar-nav a:hover {
     border-bottom: 2px solid #e75a7c;
+    font-weight: 700;
 }
 /* decrease padding so hover border-bottom
     doesn't distort size of navbar */ 
@@ -47,7 +46,13 @@ nav .current {
 }
 
 
-/* CARDS */ 
+/* CAROUSEL */
+.owl-nav {
+    margin-bottom: -50px;
+}
+
+
+/* ALL CARDS */ 
 .card {
     border: 1px solid #9fffcb;
 }
@@ -71,6 +76,10 @@ nav .current {
     height: 225px;
 }
 
+/* Contact card */ 
+.btn-outline-info:hover {
+background-color: #e75a7c;
+}
 /* Thank you card, Contact */
 .card-body a {
     color: #262626;
