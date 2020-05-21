@@ -90,6 +90,12 @@ background-color: #e75a7c;
     border-bottom: 2px solid #e75a7c;
 }
 
+/* SWIPE INTRUCTIONS, Portfolio, displays when Mobile */ 
+.swipe-me {
+    margin-top: 40px;
+    margin-bottom: -15px;
+}
+
 
 /* FOOTER */
 .footer {
