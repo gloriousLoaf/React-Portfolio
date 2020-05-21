@@ -39,28 +39,51 @@
             <div class="col-sm-7 m-2">
                 <div class="card">
                     <div class="card-body">
+                        <!-- Future versions will verify info is legit,
+                            see notes in script.js -->
                         <form>
                             <div class="form-group">
                                 <label>Name</label>
-                                <input type="text" class="form-control" placeholder="Nice to meet you.">
+                                <input type="text" class="form-control" id="contact-name"
+                                    placeholder="Nice to meet you.">
                             </div>
-
                             <div class="form-group">
                                 <label>Email</label>
-                                <input type="email" class="form-control" placeholder="username@somewhere.com">
+                                <input type="email" class="form-control" id="contact-email"
+                                    placeholder="username@somewhere.com">
                                 <small id="emailHelp" class="form-text text-muted">I will never share your email
                                     with
                                     anyone else.</small>
                             </div>
-
                             <div class="form-group">
                                 <label>Message</label>
-                                <textarea class="form-control thank-you"
+                                <textarea class="form-control thank-you" id="contact-msg"
                                     placeholder="How can we collaborate?"></textarea>
                             </div>
-
-                            <button type="submit" class="btn btn-outline-info">Submit</button>
+                            <!-- data-target for Modal -->
+                            <button type="submit" class="btn btn-outline-info shadow-none" id="submit-btn"
+                                data-toggle="modal" data-target="#thanksModal">Submit</button>
                         </form>
+
+                        <!-- Modal after Submit click -->
+                        <!-- more modals in future to deal with improper user submissions? -->
+                        <div class="modal fade" id="thanksModal" tabindex="-1" role="dialog" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <!-- stripped down and all content centered -->
+                                    <div class=" modal-header">
+                                        <h6 class="modal-title text-center w-100">Got it!</h6>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p class="text-center">Thanks for reaching out.</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-outline-info shadow-none"
+                                            data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -95,6 +118,14 @@
         integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <!-- Owl Carousel JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap.js -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
     <!-- Custom JS -->
     <script src="./assets/js/script.js"></script>
 </body>
