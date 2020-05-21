@@ -11,7 +11,7 @@ body {
     padding-bottom: 40px;
 }
 
-/* 002a46 */ 
+/* Hex color that looks cool with current pallette 002a46 */ 
 
 /* NAVBAR */ 
 .navbar {
@@ -75,6 +75,11 @@ nav .current {
 .card-img-top {
     height: 225px;
 }
+/* Portfolio Nav instructions */ 
+#swipe-me {
+    padding-top: 25px;
+    font-size: 0.8em;
+}
 
 /* Contact card */ 
 .btn-outline-info:hover {
@@ -88,12 +93,6 @@ background-color: #e75a7c;
 }   
 .card-body a:hover {
     border-bottom: 2px solid #e75a7c;
-}
-
-/* SWIPE INTRUCTIONS, Portfolio, displays when Mobile */ 
-.swipe-me {
-    margin-top: 40px;
-    margin-bottom: -15px;
 }
 
 
