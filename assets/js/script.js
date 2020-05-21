@@ -30,16 +30,16 @@ $('.owl-carousel').owlCarousel({
 // https://stackoverflow.com/questions/9828831/jquery-on-window-resize
 // https://stackoverflow.com/questions/2854407/javascript-jquery-window-resize-how-to-fire-after-the-resize-is-completed
 
-// Underscore.js .debounce() to prevent multiple firings
-$(window).resize(_.debounce(function () {
-    let win = $(this);
-    // var to hold html
-    let $swipeMe = '<div class="row d-flex justify-content-center swipe-me"><div class="card"><div class="card-body">Swipe or Tap Arrows</div></div></div>';
-    // conditional: if under 575 append html, if over remove
-    if (win.width() <= 575) {
-        $(".card-deck").append($swipeMe);
-    }
-    if (win.width() >= 575) {
-        $(".swipe-me").remove();
-    }
-}, 500));
+// // Underscore.js .debounce() to prevent multiple firings
+// $(window).resize(_.debounce(function () {
+//     let win = $(this);
+//     // var to hold html
+//     let $swipeMe = '<div class="row d-flex justify-content-center swipe-me"><div class="card"><div class="card-body">Swipe or Tap Arrows</div></div></div>';
+//     // conditional: if under 575 append html, if over remove
+//     if (win.width() <= 575) {
+//         $(".card-deck").append($swipeMe);
+//     }
+//     if (win.width() >= 575) {
+//         $(".swipe-me").remove();
+//     }
+// }, 500));
