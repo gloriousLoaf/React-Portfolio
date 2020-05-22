@@ -51,23 +51,22 @@
                                 <label>Email</label>
                                 <input type="email" class="form-control" id="contact-email"
                                     placeholder="username@somewhere.com">
-                                <small id="emailHelp" class="form-text text-muted">I will never share your email
-                                    with
-                                    anyone else.</small>
+                                <small id="email-help" class="form-text text-muted">I will not share your
+                                    info.</small>
                             </div>
                             <div class="form-group">
                                 <label>Message</label>
                                 <textarea class="form-control thank-you" id="contact-msg"
                                     placeholder="How can we collaborate?"></textarea>
                             </div>
-                            <!-- data-target for Modal -->
+                            <!-- data-target for Modal added dynamically, see storeInfo() -->
                             <button type="submit" class="btn btn-outline-info shadow-none" id="submit-btn"
-                                data-toggle="modal" data-target="#thanksModal">Submit</button>
+                                data-toggle="modal">Submit</button>
                         </form>
 
                         <!-- Modal after Submit click -->
                         <!-- more modals in future to deal with improper user submissions? -->
-                        <div class="modal fade" id="thanksModal" tabindex="-1" role="dialog" aria-hidden="true">
+                        <div class="modal fade" id="thanks-modal" tabindex="-1" role="dialog" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered" role="document">
                                 <div class="modal-content">
                                     <!-- stripped down and all content centered -->

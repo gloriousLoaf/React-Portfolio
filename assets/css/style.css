@@ -37,7 +37,6 @@ nav .current {
 /* nav-links on right hover effects */ 
 .navbar-nav a:hover {
     border-bottom: 2px solid #e75a7c;
-    font-weight: 700;
 }
 /* decrease padding so hover border-bottom
     doesn't distort size of navbar */ 
@@ -85,6 +84,22 @@ nav .current {
 background-color: #e75a7c;
 }
 
+/* .try-again styles dynamically created warning, see storeInfo() */ 
+.try-again {
+    margin-left: 6px;
+    color: #ff0000;
+}
+
+/* Thank you card, Contact */
+.card-body a {
+    color: #262626;
+    font-weight: 600;
+    text-decoration: none;
+}
+.card-body a:hover {
+    border-bottom: 2px solid #e75a7c;
+}
+
 /* MODAL */ 
 /* trim it up */ 
 .modal-dialog {
@@ -100,16 +115,6 @@ background-color: #e75a7c;
 }
 .modal-footer {
     justify-content: center;
-}
-
-/* Thank you card, Contact */
-.card-body a {
-    color: #262626;
-    font-weight: 600;
-    text-decoration: none;
-}   
-.card-body a:hover {
-    border-bottom: 2px solid #e75a7c;
 }
 
 
