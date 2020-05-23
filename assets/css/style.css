@@ -45,11 +45,6 @@ nav .current {
 }
 
 
-/* CAROUSEL */
-.owl-nav {
-    margin-bottom: -50px;
-}
-
 /* ALL CARDS */ 
 .card {
     border: 1px solid #9fffcb;
@@ -69,9 +64,16 @@ nav .current {
     margin-left: 40px;
 }
 
+/* CAROUSEL Portfolio*/
+.owl-nav {
+    margin-bottom: -50px;
+}
 /* Card deck, Portfolio */ 
 .card-img-top {
     height: 225px;
+}
+.move-left {
+    margin-left: 10px;
 }
 /* Portfolio Nav instructions */ 
 #swipe-me {
