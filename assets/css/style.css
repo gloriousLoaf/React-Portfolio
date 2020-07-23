@@ -130,6 +130,9 @@ background-color: #e75a7c;
     text-align: center;
     color: #fff;
 }
+.footer a:hover {
+    border-bottom: 2px solid #e75a7c;
+}
 
 
 /* MOBILE */ 
