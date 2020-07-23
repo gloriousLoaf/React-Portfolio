@@ -19,7 +19,7 @@ body {
     height: 90vh;
     width: 100%;
     background-image: url(../images/Metcalf-Media.png);
-    background-size: cover;
+    background-size: 743px 272px;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -29,21 +29,21 @@ body {
 }
 .content .title {
     font-size: 2rem;
-    color: #87cefa;
+    color: #17a2b8;
 }
 
 .content .text {
     line-height: 1.7;
-    color: #87cefa;
+    color: #17a2b8;
 }
 
 /* NAVBAR */ 
 .navbar {
-    box-shadow: 0 -4px 5px 0 rgba(135, 206, 250, 0.9);
+    /* box-shadow: 0 8px 5px -3px rgba(23, 162, 184, 0.9); */
+    box-shadow: 0 0 7px 3px rgba(23, 162, 184, 0.9);
     position: relative;
     top: 76%;
-    background-color: #87cefa;
-    border-bottom: 2px solid #9fffcb;
+    /* border-bottom: 2px solid #9fffcb; */
     font-weight: bold;
 }
 /* nav-links on right hover effects */ 
@@ -56,6 +56,10 @@ body {
     padding-bottom: 6px;
 }
 
+/* SECTION BOX-SHADOW */ 
+.haze {
+    border-bottom: 2px solid rgba(231, 90, 124, 0.4);
+}
 
 /* ALL CARDS */ 
 .card {
@@ -140,7 +144,6 @@ background-color: #e75a7c;
     width: 100%;
     height: 3.5rem;
     text-align: center;
-    background-color: #87cefa;
     border-top: 2px solid #9fffcb;
     color: #fff;
 }
