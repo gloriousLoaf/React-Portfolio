@@ -1,37 +1,49 @@
+/* Hex color that looks cool with current pallette 002a46 */ 
+
 /* GLOBAL */ 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Nunito', sans-serif;
 }
 body {
-    background-color: #f8f9fa;
+    background-color: #ececec;
     min-height: 100vh;
     position: relative;
     padding-bottom: 50px;
 }
 
-/* Hex color that looks cool with current pallette 002a46 */ 
+/* SHOWCASE / HERO */ 
+.showcase {
+    height: 90vh;
+    width: 100%;
+    background-image: url(../images/Metcalf-Media.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.content {
+    position: relative;
+    top: 70%;
+}
+.content .title {
+    font-size: 2rem;
+    color: #87cefa;
+}
+
+.content .text {
+    line-height: 1.7;
+    color: #87cefa;
+}
 
 /* NAVBAR */ 
 .navbar {
-    padding-bottom: 10px;
-    border-bottom: 1px solid #9fffcb;
-}
-nav .navbar-brand {
-    padding-left: 24px;
-    font-weight: 600;
-}
-/* prevents the tiny 1px expansion of navbar on hover,
-    which was driving me crazy. also no cursor change */ 
-.navbar-brand:hover {
-    margin-bottom: -1px;
-    cursor: default;
-}
-nav .navbar-nav {
-    padding-right: 24px;
-}
-nav .current {
+    box-shadow: 0 -4px 5px 0 rgba(135, 206, 250, 0.9);
+    position: relative;
+    top: 76%;
+    background-color: #87cefa;
+    border-bottom: 2px solid #9fffcb;
     font-weight: bold;
 }
 /* nav-links on right hover effects */ 
@@ -47,7 +59,7 @@ nav .current {
 
 /* ALL CARDS */ 
 .card {
-    border: 1px solid #9fffcb;
+    border: 2px solid #9fffcb;
 }
 
 /* About card */ 
@@ -128,6 +140,8 @@ background-color: #e75a7c;
     width: 100%;
     height: 3.5rem;
     text-align: center;
+    background-color: #87cefa;
+    border-top: 2px solid #9fffcb;
     color: #fff;
 }
 .footer a:hover {
@@ -137,6 +151,10 @@ background-color: #e75a7c;
 
 /* MOBILE */ 
 @media(max-width: 575px) {
+    /* hero */ 
+    .showcase {
+        height: 50vh;
+    }
     /* navbar adjustments */ 
     .navbar-brand {
         display: block;

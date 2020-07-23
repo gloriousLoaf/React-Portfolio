@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Font Pack -->
+    <!-- Fonts -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -23,20 +24,171 @@
 
 
 <body>
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-info">
-        <span class="navbar-brand" style="color: #fff">David Metcalf</span>
-        <div class="navbar-nav ml-auto">
-            <a class="nav-item nav-link current" href="index.html">About</a>
-            <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-            <a class="nav-item nav-link" href="contact.html">Contact</a>
+
+    <!-- SHOWCASE / HERO --> 
+    <header class="showcase text-center">
+
+        <div class="content">
+            <div class="title">
+                Metcalf Media
+            </div>
+            <div class="text">
+                Modern design, expressive content.
+            </div>
         </div>
-    </nav>
-    <div class="container">
-        <!-- Bio card with selfie -->
+
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="navbar-nav mx-auto">
+                <a class="nav-item nav-link" href="#portfolio">Portfolio</a>
+                <a class="nav-item nav-link" href="#aboutme">About</a>
+                <a class="nav-item nav-link" href="#contact">Contact</a>
+            </div>
+        </nav>
+
+    </header>
+
+    <!-- PORTFOLIO --> 
+    <div class="container mt-5 mb-5" id="portfolio">
+        <div class="row">
+            <h3 class="mx-auto mt-3 text-info">P o r t f o l i o</h3>
+        </div>
+        <div class="card-deck m-4">
+            <!-- Owl Carousel, mobile swipe friendly, or use nav arrows -->
+            <div class="owl-carousel owl-theme">
+                <div class="item card shadow">
+                    <a href="https://gloriousloaf.github.io/Covid-19-Tracker/" target="_blank">
+                        <img class="card-img-top" src="./assets/images/covid-snip.png"
+                            alt="Brighly colored succulents in white pots."></a>
+                    <div class="card-body">
+                        <h5 class="card-title move-left">Covid-19 Resources</h5>
+                        <p class="card-text">A global tracker information
+                            and resources. Includes statewide testing information.</p>
+                        <p class="card-text"><small class="text-muted">JS / jQuery & Multiple APIs - <a
+                                    href="https://github.com/gloriousLoaf/Covid-19-Tracker"
+                                    target="_blank">Repository</a></small>
+                        </p>
+                    </div>
+                </div>
+                <div class="item card shadow">
+                    <a href="https://gloriousloaf.github.io/Coding-Quiz/" target="_blank">
+                        <img class="card-img-top" src="./assets/images/quiz-demo.png" alt="A multiple choice quiz."></a>
+                    <div class="card-body">
+                        <h5 class="card-title move-left">Mulitple Choice Quiz</h5>
+                        <p class="card-text">A timed multiple choice quiz, with options to track and clear high scores.
+                        </p>
+                        <p class="card-text"><small class="text-muted">JS / jQuery & Bootstrap - <a
+                                    href="https://github.com/gloriousLoaf/Coding-Quiz"
+                                    target="_blank">Repository</a></small>
+                    </div>
+                </div>
+                <div class="item card shadow">
+                    <a href="https://gloriousloaf.github.io/Weather-Dashboard/" target="_blank"><img
+                            class="card-img-top" src="./assets/images/weather-demo.png"
+                            alt="A five day weather forecast display."></a>
+                    <div class="card-body">
+                        <h5 class="card-title move-left">Weather Dashboard</h5>
+                        <p class="card-text">Current weather conditions plus five day forecast.
+                            Recent search history to find results quickly.</p>
+                        <p class="card-text"><small class="text-muted">JS / jQuery & Multiple APIs - <a
+                                    href="https://github.com/gloriousLoaf/Weather-Dashboard"
+                                    target="_blank">Repository</a></small>
+                    </div>
+                </div>
+                <div class="item card shadow">
+                    <a href="https://gloriousloaf.github.io/Work-Day-Scheduler/" target="_blank"><img
+                            class="card-img-top" src="./assets/images/work-day.png" alt="A work day scheduler."></a>
+                    <div class="card-body">
+                        <h5 class="card-title move-left">Work Day Scheduler</h5>
+                        <p class="card-text">Plan your day with saved events, local weather, and clear
+                            it out for tomorrow.</p>
+                        <p class="card-text"><small class="text-muted">JS / jQuery, Moment.js - <a
+                                    href="https://github.com/gloriousLoaf/Work-Day-Scheduler"
+                                    target="_blank">Repository</a></small>
+                    </div>
+                </div>
+                <div class="item card shadow">
+                    <a href="https://gloriousloaf.github.io/Word-Guess-Game/" target="_blank"><img class="card-img-top"
+                            src="./assets/images/word-guess.png" alt="A word guessing game."></a>
+                    <div class="card-body">
+                        <h5 class="card-title move-left">Word Guessing Game</h5>
+                        <p class="card-text">An interactive, plant-based riff on the children's classic game. Tracks
+                            wins and losses.</p>
+                        <p class="card-text"><small class="text-muted">JS & Bootstrap - <a
+                                    href="https://github.com/gloriousLoaf/Word-Guess-Game"
+                                    target="_blank">Repository</a></small>
+                    </div>
+                </div>
+                <div class="item card shadow">
+                    <a href="https://gloriousloaf.github.io/Psychic-Game/" target="_blank"><img class="card-img-top"
+                            src="./assets/images/letter-game.png" alt="A letter guessing game."></a>
+                    <div class="card-body">
+                        <h5 class="card-title move-left">Letter Guessing Game</h5>
+                        <p class="card-text">Can you guess what letter the Psychic is thinking of? Tracks wins and
+                            losses.</p>
+                        <p class="card-text"><small class="text-muted">JS & Bootstrap - <a
+                                    href="https://github.com/gloriousLoaf/Psychic-Game"
+                                    target="_blank">Repository</a></small>
+                    </div>
+                </div>
+                <div class="item card shadow">
+                    <a href="https://gloriousloaf.github.io/Landing-Page-with-Blur/" target="_blank"><img
+                            class="card-img-top" src="./assets/images/logoroad.jpg"
+                            alt="Metcalf Media logo on a desert road."></a>
+                    <div class="card-body">
+                        <h5 class="card-title move-left">Landing Page with Blur</h5>
+                        <p class="card-text">A modern landing page, with alternating blur effect on hover. Mobile
+                            friendly.
+                        </p>
+                        <p class="card-text"><small class="text-muted">HTML & Custom CSS - <a
+                                    href="https://github.com/gloriousLoaf/Landing-Page-with-Blur"
+                                    target="_blank">Repository</a></small>
+                    </div>
+                </div>
+                <div class="item card shadow">
+                    <a href="https://gloriousloaf.github.io/responsive-layout-/" target="_blank"><img
+                            class="card-img-top" src="./assets/images/loaf-bloom.jpg"
+                            alt="Brighly colored succulents in white pots."></a>
+                    <div class="card-body">
+                        <h5 class="card-title move-left">Responsive Layout Site</h5>
+                        <p class="card-text">A full website template in three pages. Show your customers what you
+                            can
+                            do for them.</p>
+                        <p class="card-text"><small class="text-muted">HTML & Custom CSS - <span><a
+                                        href="https://github.com/gloriousLoaf/responsive-layout-"
+                                        target="_blank">Repository</a></span></small></p>
+                    </div>
+                </div>
+                <div class="item card shadow">
+                    <a href="https://gloriousloaf.github.io/Fullscreen-Landing-Page/" target="_blank"><img
+                            class="card-img-top" src='./assets/images/mountains.jpg'
+                            alt="Mountain scene at sunrise"></a>
+                    <div class="card-body">
+                        <h5 class="card-title move-left">A Classic Landing Page</h5>
+                        <p class="card-text">Let your photography hook them in. Then let this easy page bring them
+                            closer to your brand.
+                        </p>
+                        <p class="card-text"><small class="text-muted">HTML & Custom CSS - <span><a
+                                        href="https://github.com/gloriousLoaf/Fullscreen-Landing-Page"
+                                        target="_blank">Repository</a></span></small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel Nav instructions -->
+        <div class="row d-flex justify-content-center" id="swipe-me">
+            <p class="text-muted">(or swipe)</p>
+        </div>
+    </div>
+
+    <!-- ABOUT ME --> 
+    <div class="container mb-5" id="aboutme">
+        <div class="row">
+            <h3 class="mx-auto mt-3 text-info">A b o u t &nbsp;&nbsp; M e</h3>
+        </div>
         <div class="row mt-4">
             <div class="col-sm-7 m-2">
-                <div class="card p-2">
+                <div class="card p-2 shadow">
                     <div class="card-body">
                         <h2>About Me</h2>
                         <hr>
@@ -63,17 +215,17 @@
 
             <!-- Skills card, same row -->
             <div class="col-sm-4 m-2">
-                <div class="card">
+                <div class="card shadow">
                     <div class="card-body">
                         <h5 class="card-title">Full Stack Development</h5>
                         <h6 class="card-subtitle font-weight-light">Skills Updated frequently</h6>
                         <hr>
                         <ul>
-                            <li>HTML5</li>
-                            <li>CSS3</li>
-                            <li>Bootstrap</li>
-                            <li>Javascript, jQuery</li>
-                            <li>APIs</li>
+                            <li>HTML5, CSS3, JavaScript</li>
+                            <li>Node, Express, Handlebars</li>
+                            <li>MVC, ORM, OOP</li>
+                            <li>MySQL, NoSQL</li>
+                            <li>Custom APIs</li>
                             <li>PC, Mac & Linux</li>
                             <li>Salesforce & other CRMs</li>
                             <li>Digital Marketing</li>
@@ -84,8 +236,87 @@
         </div>
     </div>
 
+    <!-- CONTACT --> 
+    <div class="container mb-5" id="contact">
+        <div class="row">
+            <h3 class="mx-auto mt-3 text-info">C o n t a c t</h3>
+        </div>
+        <div class="row mt-4">
+            <div class="col-sm-7 m-2">
+                <div class="card shadow">
+                    <div class="card-body">
+                        <!-- Future versions will verify info is legit,
+                            see notes in script.js -->
+                        <form>
+                            <div class="form-group">
+                                <label>Name</label>
+                                <input type="text" class="form-control" id="contact-name"
+                                    placeholder="Nice to meet you.">
+                            </div>
+                            <div class="form-group">
+                                <label>Email</label>
+                                <input type="email" class="form-control" id="contact-email"
+                                    placeholder="username@somewhere.com">
+                                <small id="email-help" class="form-text text-muted">I will not share your
+                                    info.</small>
+                            </div>
+                            <div class="form-group">
+                                <label>Message</label>
+                                <textarea class="form-control thank-you" id="contact-msg"
+                                    placeholder="How can we collaborate?"></textarea>
+                            </div>
+                            <!-- data-target for Modal added dynamically, see storeInfo() -->
+                            <button type="submit" class="btn btn-outline-info shadow-sm" id="submit-btn"
+                                data-toggle="modal">Submit</button>
+                        </form>
+
+                        <!-- Modal after Submit click -->
+                        <!-- more modals in future to deal with improper user submissions? -->
+                        <div class="modal fade" id="thanks-modal" tabindex="-1" role="dialog" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <!-- stripped down and all content centered -->
+                                    <div class=" modal-header">
+                                        <h6 class="modal-title text-center w-100">Got it!</h6>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p class="text-center">Thanks for reaching out.</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-outline-info shadow-none"
+                                            data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Thank you card -->
+            <div class="col">
+            </div>
+            <div class="col-sm-4 m-2">
+                <div class="card shadow">
+                    <div class="card-body">
+                        <h5 class="card-title">Thank you for visiting.</h5>
+                        <h6 class="card-subtitle font-weight-light">I will respond to your inquiry within 24 hours.
+                        </h6>
+                        <hr>
+                        <p class="font-weight-light">Let's start a conversation. Connect with me and view my resume
+                            on <a href="https://www.linkedin.com/in/david-metcalf-codes/" target="_blank">LinkedIn</a>.
+                        </p>
+                        <br>
+                        <p class="font-weight-light">View further work and get a sense of my development style at <a
+                                href="https://github.com/gloriousLoaf" target="_blank">GitHub</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Footer --> 
-    <footer class="footer bg-info">
+    <footer class="footer">
         <div class="text-center">
             <i class="fab fa-github" aria-hidden="true"></i> <a class="text-decoration-none text-white"
                 href="https://github.com/gloriousLoaf" target="_blank">gloriousLoaf</a> &copy;2020
