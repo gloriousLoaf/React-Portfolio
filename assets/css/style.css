@@ -16,7 +16,7 @@ body {
 
 /* SHOWCASE / HERO */ 
 .showcase {
-    height: 90vh;
+    height: 65vh;
     width: 100%;
     background-image: url(../images/Metcalf-Media.png);
     background-size: 743px 272px;
@@ -39,11 +39,9 @@ body {
 
 /* NAVBAR */ 
 .navbar {
-    /* box-shadow: 0 8px 5px -3px rgba(23, 162, 184, 0.9); */
     box-shadow: 0 0 7px 3px rgba(23, 162, 184, 0.9);
     position: relative;
-    top: 76%;
-    /* border-bottom: 2px solid #9fffcb; */
+    top: 80%;
     font-weight: bold;
 }
 /* nav-links on right hover effects */ 
@@ -59,6 +57,11 @@ body {
 /* SECTION BOX-SHADOW */ 
 .haze {
     border-bottom: 2px solid rgba(231, 90, 124, 0.4);
+}
+
+/* PORTFOLIO */ 
+#portfolio {
+    margin-top: 130px;
 }
 
 /* ALL CARDS */ 
