@@ -97,7 +97,9 @@ body {
 }
 /* Card deck, Portfolio */ 
 .card-img-top {
-    height: 225px;
+    width: 100%;
+    height: 15vw;
+    object-fit: cover
 }
 .move-left {
     margin-left: 10px;
@@ -188,6 +190,13 @@ background-color: #e75a7c;
     }
     .card-body .col {
         text-align: justify;
+    }
+
+    /* Carousel Images */ 
+    .card-img-top {
+        width: 100%;
+        height: 50vw;
+        object-fit: cover
     }
 
     /* About selfie */ 
