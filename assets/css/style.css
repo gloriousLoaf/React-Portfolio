@@ -7,6 +7,10 @@
     padding: 0;
     font-family: 'Nunito', sans-serif;
 }
+html {
+    --scroll-behavior: smooth;
+    scroll-behavior: smooth;
+}
 body {
     background-color: #ececec;
     min-height: 100vh;
