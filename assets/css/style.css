@@ -7,10 +7,10 @@
     padding: 0;
     font-family: 'Nunito', sans-serif;
 }
-html {
+/* html {
     --scroll-behavior: smooth;
     scroll-behavior: smooth;
-}
+} */
 body {
     background-color: #ececec;
     min-height: 100vh;
@@ -115,7 +115,7 @@ body {
 background-color: #e75a7c;
 }
 
-/* .try-again styles dynamically created warning, see storeInfo() */ 
+/* .try-again styles dynamically created warnings, see storeInfo() */ 
 .try-again {
     margin-left: 6px;
     color: #ff0000;
