@@ -37,21 +37,25 @@ body {
     color: #17a2b8;
 }
 
-/* NAVBAR */ 
+/* NAVBAR & HOME-SCROLL LINKS*/ 
 .navbar {
     box-shadow: 0 0 7px 3px rgba(23, 162, 184, 0.9);
     position: relative;
     top: 80%;
     font-weight: bold;
 }
-/* nav-links on right hover effects */ 
-.navbar-nav a:hover {
+/* hover effects */ 
+.navbar-nav a:hover, .scroll a:hover {
     border-bottom: 2px solid #e75a7c;
 }
 /* decrease padding so hover border-bottom
     doesn't distort size of navbar */ 
 .navbar a:hover {
     padding-bottom: 6px;
+}
+.scroll {
+    font-size: 0.9em;
+    opacity: 0.9;
 }
 
 /* SECTION BOX-SHADOW */ 
@@ -162,16 +166,8 @@ background-color: #e75a7c;
         height: 50vh;
     }
     /* navbar adjustments */ 
-    .navbar-brand {
-        display: block;
-        position: relative;
-        padding-right: 24px;
-        margin-left: auto;
-        margin-right: auto;
-    }
     .navbar-nav, .nav-item {
         display: inline;
-        padding-left: 24px;
         margin-left: auto;
         margin-right: auto;
     }
