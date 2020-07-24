@@ -1,5 +1,3 @@
-import smoothscroll from 'smoothscroll-polyfill'
-smoothscroll.polyfill()
 // Owl Carousel for Portfolio on page load
 $(document).ready(() => {
     $(`.owl-carousel`).owlCarousel();
