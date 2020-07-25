@@ -60,7 +60,7 @@ function scroller(position) {
 };
 
 /* The stuff below was a placeholder before starting back end class modules,
-    maybe next rewrite I'll build out some real stuff here. */
+    Next Rewrite: Heroku App / MongoDB that stores user input? */
 
 // listener on Submit button, Contact page, calls storeInfo()
 $(`#submit-btn`).on(`click`, storeInfo);
