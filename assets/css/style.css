@@ -42,28 +42,27 @@ body {
     color: #17a2b8;
 }
 
-/* NAVBAR & HOME-SCROLL LINKS*/ 
+/* NAVBAR, HOME-SCROLL & CONTACT LINKS*/ 
+/* fuzzy box-shadow, positioned inside bottom of header */ 
 .navbar {
     box-shadow: 0 0 7px 3px rgba(23, 162, 184, 0.9);
     position: relative;
     top: 80%;
     font-weight: bold;
 }
-/* hover effects */ 
-.navbar-nav a:hover, .scroll a:hover {
+/* Hover Effects */ 
+.navbar-nav a:hover, .scroll a:hover, .card-body a:hover {
     border-bottom: 2px solid #e75a7c;
+/* decrease margin so hover doesn't distort size of elements */ 
+    margin-bottom: -2px;
 }
-/* decrease padding so hover border-bottom
-    doesn't distort size of navbar */ 
-.navbar a:hover {
-    padding-bottom: 6px;
-}
+/* make (home) links little & faint */ 
 .scroll {
     font-size: 0.9em;
     opacity: 0.9;
 }
 
-/* SECTION BOX-SHADOW */ 
+/* Section Titles get a little box-shadow */ 
 .haze {
     border-bottom: 2px solid rgba(231, 90, 124, 0.4);
 }
@@ -128,9 +127,10 @@ background-color: #e75a7c;
     font-weight: 600;
     text-decoration: none;
 }
+/* might still use this at some point:
 .card-body a:hover {
     border-bottom: 2px solid #e75a7c;
-}
+} */
 
 /* MODAL */ 
 /* trim it up */ 
@@ -173,6 +173,9 @@ background-color: #e75a7c;
         height: 50vh;
     }
     /* navbar adjustments */ 
+    .navbar {
+        padding: 12px;
+    }
     .navbar-nav, .nav-item {
         display: inline;
         margin-left: auto;
