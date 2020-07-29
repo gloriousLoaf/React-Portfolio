@@ -19,6 +19,7 @@ body {
     padding-bottom: 50px;
 }
 
+
 /* SHOWCASE / HERO */ 
 .showcase {
     height: 65vh;
@@ -42,7 +43,8 @@ body {
     color: #17a2b8;
 }
 
-/* NAVBAR, HOME-SCROLL & CONTACT LINKS*/ 
+
+/* NAVBAR, HOME & SECTION SCROLLING & CONTACT LINKS*/ 
 /* fuzzy box-shadow, positioned inside bottom of header */ 
 .navbar {
     box-shadow: 0 0 7px 3px rgba(23, 162, 184, 0.9);
@@ -56,28 +58,52 @@ body {
 /* decrease margin so hover doesn't distort size of elements */ 
     margin-bottom: -2px;
 }
+/* since section headers are clickable, show pointer */ 
+#goPort, #goAbout, #goContact {
+    cursor: pointer;
+}
 /* make (home) links little & faint */ 
 .scroll {
     font-size: 0.9em;
     opacity: 0.9;
 }
-
-/* Section Titles get a little box-shadow */ 
+/* Section Headers get a little box-shadow */ 
 .haze {
     border-bottom: 2px solid rgba(231, 90, 124, 0.4);
 }
 
-/* PORTFOLIO */ 
-#portfolio {
-    margin-top: 130px;
-}
 
-/* ALL CARDS */ 
+/* ALL CARDS get a lil border */ 
 .card {
     border: 2px solid #9fffcb;
 }
 
-/* About card */ 
+
+/* PORTFOLIO CAROUSEL*/
+#portfolio {
+    margin-top: 130px;
+}
+.owl-nav {
+    margin-bottom: -50px;
+}
+/* card deck */ 
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover
+}
+/* line up card titles */ 
+.move-left {
+    margin-left: 10px;
+}
+/* portfolio nav instructions */ 
+#swipe-me {
+    padding-top: 25px;
+    font-size: 0.8em;
+}
+
+
+/* ABOUT SECTION */ 
 .col .m-2, p {
     margin: 0 10px;
 }
@@ -85,42 +111,21 @@ body {
     max-height: 200px;
     max-width: 200px;
 }
-
 /* Skills card */ 
 .card-body ul {
     margin-left: 40px;
 }
 
-/* CAROUSEL Portfolio*/
-.owl-nav {
-    margin-bottom: -50px;
-}
-/* Card deck, Portfolio */ 
-.card-img-top {
-    width: 100%;
-    height: 15vw;
-    object-fit: cover
-}
-.move-left {
-    margin-left: 10px;
-}
-/* Portfolio Nav instructions */ 
-#swipe-me {
-    padding-top: 25px;
-    font-size: 0.8em;
-}
 
-/* Contact card */ 
+/* CONTACT SECTION */ 
 .btn-outline-info:hover {
 background-color: #e75a7c;
 }
-
-/* .try-again styles dynamically created warnings, see storeInfo() */ 
+/* .try-again styles dynamically-created warnings, see storeInfo() */ 
 .try-again {
     margin-left: 6px;
     color: #ff0000;
 }
-
 /* Thank you card, Contact */
 .card-body a {
     color: #262626;
@@ -131,6 +136,7 @@ background-color: #e75a7c;
 .card-body a:hover {
     border-bottom: 2px solid #e75a7c;
 } */
+
 
 /* MODAL */ 
 /* trim it up */ 
