@@ -191,15 +191,12 @@ background-color: #e75a7c;
         margin: 0 5px;
     }
     
-    /* Card text alignment, all pages */ 
+    /* Card text alignment, all sections */ 
     .card-body h2, h5, h6 {
         text-align: center;
     }
     .card-body ul {
         padding-left: 20px;
-    }
-    .card-body .col {
-        text-align: justify;
     }
 
     /* Carousel Images */ 
