@@ -1,3 +1,4 @@
+  
 /* Hex color that looks cool with current pallette 002a46 */ 
 
 /* GLOBAL */ 
@@ -24,7 +25,7 @@ body {
 .showcase {
     height: 65vh;
     width: 100%;
-    background-image: url(../images/Metcalf-Media.png);
+    background-image: url(../images/Metcalf-Media.svg);
     background-size: 743px 272px;
     background-repeat: no-repeat;
     background-position: center;
