@@ -15,11 +15,12 @@ Featured repos, About Me, and Contact Information.
 <p>&nbsp;</p>
 
 ## Description
-This is a constantly updated and evolving portfolio, serving as an introduction to my work and progress in full stack development. This currently uses **Bootstrap, jQuery, Owl Carousel, and custom JavaScript & stylesheet.** To view, please visit [gloriousLoaf.github.io](https://gloriousloaf.github.io/)
+To view my portfolio, please visit [metcalf.dev](https://metcalf.dev).
+This is a constantly updated and evolving portfolio, serving as an introduction to my work and progress in full stack development. This currently uses **Bootstrap, jQuery, Owl Carousel, and custom JavaScript & stylesheet.**
 <p>&nbsp;</p>
 
 ## Installation
-If you are interested, feel free to clone this repo and use it for inspiration in your on portfolio. Though I doubt that is why you are here viewing this README. Thanks by the way for checking out my work!
+If you are interested, feel free to clone this repo and use it for inspiration in your own portfolio. Though I doubt that is why you are here viewing this README. Thanks by the way for checking out my work!
 <p>&nbsp;</p>
 
 ## Usage
