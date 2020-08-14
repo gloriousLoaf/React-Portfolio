@@ -20,7 +20,7 @@ This is a constantly updated and evolving portfolio, serving as an introduction 
 <p>&nbsp;</p>
 
 ## Installation
-If you are interested, feel free to clone this repo and use it for inspiration in your on portfolio. Though I doubt that is why you are here viewing this README. Thanks by the way for checking out my work!
+If you are interested, feel free to clone this repo and use it for inspiration in your own portfolio. Though I doubt that is why you are here viewing this README. Thanks by the way for checking out my work!
 <p>&nbsp;</p>
 
 ## Usage
