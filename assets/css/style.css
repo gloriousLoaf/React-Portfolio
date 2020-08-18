@@ -55,6 +55,7 @@ body {
 }
 /* Hover Effects */ 
 .navbar-nav a:hover, .scroll a:hover, .card-body a:hover {
+    cursor: pointer;
     border-bottom: 2px solid #e75a7c;
 /* decrease margin so hover doesn't distort size of elements */ 
     margin-bottom: -2px;
