@@ -236,26 +236,24 @@
             <div class="col-sm-7 m-2">
                 <div class="card shadow">
                     <div class="card-body">
-                        <h5 class="card-title m-1 d-flex justify-content-center text-info">Messaging Coming Soon.</h5>
-                        <div class="card-subtitle m-1 mb-2 d-flex justify-content-center text-info"><a
-                                href="mailto:hello@metcalf.dev">hello@metcalf.dev</a>
-                        </div>
-                        <form>
+                        <h5 class="card-title m-1 d-flex justify-content-center text-info">Send Me a Message</h5>
+                        <br>
+                        <form name="submit-to-google-sheet">
                             <div class="form-group">
                                 <label>Name</label>
-                                <input type="text" class="form-control" id="contact-name"
+                                <input name="name" type="text" class="form-control" id="contact-name"
                                     placeholder="Nice to meet you.">
                             </div>
                             <div class="form-group">
                                 <label>Email</label>
-                                <input type="email" class="form-control" id="contact-email"
+                                <input name="email" type="email" class="form-control" id="contact-email"
                                     placeholder="username@somewhere.com">
                                 <small id="email-help" class="form-text text-muted">I will not share your
                                     info.</small>
                             </div>
                             <div class="form-group">
                                 <label>Message</label>
-                                <textarea class="form-control thank-you" id="contact-msg"
+                                <textarea name="message" class="form-control thank-you" id="contact-msg"
                                     placeholder="How can we collaborate?"></textarea>
                             </div>
                             <!-- data-target for Modal added dynamically, see storeInfo() -->
@@ -293,7 +291,7 @@
                 <div class="card shadow">
                     <div class="card-body">
                         <h5 class="card-title move-left">Thank you for visiting.</h5>
-                        <h6 class="card-subtitle font-weight-light move-left">I will respond to your inquiry within 24
+                        <h6 class="card-subtitle font-weight-light move-left">I will reply within 24
                             hours.
                         </h6>
                         <hr>

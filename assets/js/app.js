@@ -59,14 +59,10 @@ function scroller(position) {
     }, 500);
 };
 
-/* The stuff below was a placeholder before starting back end class modules,
-    Next Rewrite: Heroku App / MongoDB that stores user input? */
+/* Contact Form - Verification of Info, Google Sheets API */
 
-// listener on Submit button, Contact page, calls storeInfo()
+// listener on Contact card Submit calls storeInfo()
 $(`#submit-btn`).on(`click`, storeInfo);
-
-// useful global array in the future?
-const submissions = [];
 
 // email validator
 function validator(email) {
@@ -74,9 +70,12 @@ function validator(email) {
     return valid.test(email);
 }
 
-// storeInfo() grabs all form values, creates new Objs, push to submissions[]
+// vars for Google Sheets API
+const scriptURL = 'https://script.google.com/macros/s/AKfycbzxivBPk8mDjOYPOqm53FndxzXHx4V-EufqCgyhRZpayYwc_aQ/exec';
+const form = document.forms['submit-to-google-sheet'];
+
+// storeInfo() validates info then calls Fetch API to Google Sheets & triggers modal
 function storeInfo() {
-    // Bootstrap was doing something weird here
     event.preventDefault();
     // remove <small>&<span> msgs, in case of multiple clicks, see below
     $(`.try-again`).remove();
@@ -95,16 +94,15 @@ function storeInfo() {
     }
     // once fields are verified
     else {
+        // Google Sheets API
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
         // this attr triggers Modal
         $(`#submit-btn`).attr(`data-target`, `#thanks-modal`)
-        // create Obj from input
-        let Contact = { name: $contactName, email: $contactEmail, msg: $contactMsg };
         // clear forms after submission
         $(`form`)[0].reset();
-        // push Obj in array, load in storage
-        submissions.push(Contact);
-        console.log(submissions)
-        localStorage.setItem(`contact`, JSON.stringify(submissions));
+        // short timeout to let all these scripts work
         setTimeout(() => {
             // remove trigger attr in case of multiple clicks
             $(`#submit-btn`).removeAttr(`data-target`);
