@@ -1,0 +1,46 @@
+/* clickable header */ 
+#goPort {
+    cursor: pointer;
+    border-bottom: 2px solid rgba(231, 90, 124, 0.4);
+}
+
+/* PORTFOLIO CAROUSEL*/
+#portfolio {
+    margin-top: 130px;
+}
+
+/* .owl-nav {
+    margin-bottom: -50px;
+} */
+/* card deck */ 
+/* .card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover
+} */
+/* line up card titles */ 
+/* .move-left {
+    margin-left: 10px;
+} */
+/* portfolio nav instructions */ 
+/* #swipe-me {
+    padding-top: 25px;
+    font-size: 0.8em;
+} */
+
+/* MOBILE */ 
+/* @media(max-width: 575px) { */
+    /* Card text alignment, all sections */ 
+    /* .card-body h2, h5, h6 {
+        text-align: center;
+    }
+    .card-body ul {
+        padding-left: 20px;
+    } */
+    /* Carousel Images */ 
+    /* .card-img-top {
+        width: 100%;
+        height: 50vw;
+        object-fit: cover
+    }
+} */
