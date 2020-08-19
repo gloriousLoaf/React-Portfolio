@@ -1,6 +1,6 @@
 import React from 'react';
 import Hero from './components/Hero/index.js';
-// import Nav from './components/Nav/index.js';
+import Nav from './components/Nav/index.js';
 // import Portfolio from './components/Portfolio/index.js';
 // import PortCard from './components/PortCard/inde.js';
 // import About from './components/About/index.js';
@@ -14,18 +14,18 @@ import './App.css';
 function App() {
     return (
         <div className="App">
-            <div className="container">
-                <header>
-                    <Hero />
-                    {/* <Nav /> */}
-                </header>
-                {/* <Portfolio />
+            {/* Header may become a Context, or something?
+                if so, remember to move styles! */}
+            <header className='showcase text-center'>
+                <Hero />
+                <Nav />
+            </header>
+            {/* <Portfolio />
                 <About />
                 <Skills />
                 <Contact />
                 <Thanks />
                 <Footer /> */}
-            </div>
         </div>
     );
 };

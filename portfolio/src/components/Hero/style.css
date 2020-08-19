@@ -1,12 +1,5 @@
 /* SHOWCASE / HERO */ 
-.showcase {
-    height: 65vh;
-    width: 100%;
-    background-image: url(./Metcalf-Media.svg);
-    background-size: 743px 272px;
-    background-repeat: no-repeat;
-    background-position: center;
-}
+/* .showcase class is in App.js & App.css */ 
 .content {
     position: relative;
     top: 70%;
@@ -15,8 +8,9 @@
     font-size: 2rem;
     color: #17a2b8;
 }
-
 .content .text {
     line-height: 1.7;
+    font-size: 1.1rem;
+    font-weight: 600;
     color: #17a2b8;
 }

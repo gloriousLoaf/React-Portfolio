@@ -9,3 +9,21 @@
     padding-bottom: 4rem;
     background-color: #ececec;
 }
+
+/* SHOWCASE / HERO */ 
+.showcase {
+    height: 65vh;
+    width: 100%;
+    background-image: url(./components/Hero/Metcalf-Media.svg);
+    background-size: 743px 272px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* MOBILE */ 
+@media(max-width: 575px) {
+    /* hero */ 
+    .showcase {
+        height: 50vh;
+    }
+}

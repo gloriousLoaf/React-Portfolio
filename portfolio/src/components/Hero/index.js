@@ -1,20 +1,18 @@
+// Hero
 import React from 'react';
-// import Logo from '../../logo.svg'
 import './style.css'
 
-function hero() {
+function Hero() {
     return (
-        <header className='showcase text-center'>
-            <div className="content">
-                <div className="title">
-                    &nbsp;
+        <div className="content">
+            <div className="title">
+                &nbsp;
             </div>
-                <div className="text mt-4">
-                    Modern Design • Expressive Content
+            <div className="text mt-4">
+                Modern Design • Expressive Content
             </div>
-            </div>
-        </header>
+        </div>
     )
 };
 
-export default hero;
+export default Hero;
