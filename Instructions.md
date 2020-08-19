@@ -1,4 +1,4 @@
-# Instructions for project. Delete before merge to master branch!
+# Instructions for project. Delete before merge!
 
 ## Unit 20 React Homework: React Portfolio
 
