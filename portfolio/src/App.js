@@ -15,9 +15,11 @@ function App() {
     return (
         <div className="App">
             <div className="container">
-                <Hero />
-                {/* <Nav />
-                <Portfolio />
+                <header>
+                    <Hero />
+                    {/* <Nav /> */}
+                </header>
+                {/* <Portfolio />
                 <About />
                 <Skills />
                 <Contact />
