@@ -15,8 +15,8 @@
 button:focus {
     outline: none;
 }
-/* Hover Effects */ 
-.navbar-nav button:hover {
+/* Hover / Focus Effects */ 
+.navbar-nav button:hover, .navbar-nav button:focus {
     cursor: pointer;
     border-bottom: 2px solid #e75a7c;
 /* decrease margin so hover doesn't distort size of elements */ 

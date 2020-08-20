@@ -1,0 +1,50 @@
+/* ABOUT ME */ 
+/* clickable header */ 
+#goAbout {
+    border-bottom: 2px solid rgba(231, 90, 124, 0.4);
+}
+#goAbout:hover, #goAbout:focus {
+    outline: none;
+    cursor: pointer;
+    border-bottom: 3px solid rgba(231, 90, 124, 0.8);
+    font-weight: bolder;
+}
+/* Card & Selfie styles */ 
+.col .m2, p, h5, h6 {
+    margin: 0 0.5rem;
+}
+.selfie {
+    max-height: 12.5rem;
+    max-width: 12.5rem;
+}
+/* Skills card */ 
+.card-body ul {
+    margin-left: 40px;
+}
+/* Home Scroll */ 
+.scroll span:hover {
+    cursor: pointer;
+    border-bottom: 2px solid #e75a7c;
+/* decrease margin so hover doesn't distort size of elements */ 
+    margin-bottom: -2px;
+}
+
+/* MOBILE */ 
+@media(max-width: 575px) {
+
+    /* Card text alignment and spacing */ 
+    .card-body h2, h5, h6 {
+        text-align: center;
+    }
+    .card-body ul {
+        padding-left: 20px;
+    }
+    .card-body .selfie {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .col-sm-4 {
+        padding-bottom: 20px;
+    }
+}

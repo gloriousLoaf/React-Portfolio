@@ -23,6 +23,11 @@
     background-position: center;
 }
 
+/* ALL CARDS get a lil border */ 
+.card {
+    border: 2px solid #9fffcb;
+}
+
 /* MOBILE */ 
 @media(max-width: 575px) {
     /* hero */ 

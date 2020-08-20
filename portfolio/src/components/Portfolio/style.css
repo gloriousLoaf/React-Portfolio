@@ -1,7 +1,13 @@
+/* PORTFOLIO */ 
 /* clickable header */ 
 #goPort {
-    cursor: pointer;
     border-bottom: 2px solid rgba(231, 90, 124, 0.4);
+}
+#goPort:hover, #goPort:focus {
+    outline: none;
+    cursor: pointer;
+    border-bottom: 3px solid rgba(231, 90, 124, 0.8);
+    font-weight: bolder;
 }
 
 /* PORTFOLIO CAROUSEL*/
