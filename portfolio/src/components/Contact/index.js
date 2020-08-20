@@ -1,5 +1,6 @@
 // CONTACT
 import React from 'react';
+import storeInfo from './contactApp';
 import './style.css'
 
 function Contact() {
@@ -15,7 +16,7 @@ function Contact() {
                         <div className="card-body">
                             <h5 className="card-title m-1 d-flex justify-content-center text-info">Send Me a Message</h5>
                             <br />
-                            <form name="submit-to-google-sheet">
+                            <form name="submit-to-google-sheet" onSubmit={storeInfo}>
                                 <div className="form-group">
                                     <label>Name</label>
                                     <input name="name" type="text" className="form-control" id="contact-name"
@@ -38,6 +39,7 @@ function Contact() {
                                     data-toggle="modal">Submit</button>
                             </form>
 
+                            {/* MODAL NOT IMPLEMENTED YET */}
                             {/* Modal after Submit click */}
                             <div className="modal fade" id="thanks-modal" tabIndex="-1" role="dialog" aria-hidden="true">
                                 <div className="modal-dialog modal-dialog-centered" role="document">
