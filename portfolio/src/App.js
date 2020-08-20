@@ -8,7 +8,7 @@ import About from './components/About/index.js';
 // import Skills from './components/Skills/index.js';
 // import Contact from './components/Contact/index.js';
 // import Thanks from './components/Thanks/index.js';
-// import Footer from './components/Footer/index.js';
+import Footer from './components/Footer/index.js';
 import './App.css';
 
 // just wireframing a bit. this will change a lot.
@@ -23,10 +23,8 @@ function App() {
             </header>
             <Portfolio />
             <About />
-            {/* <Skills />
-                <Contact />
-                <Thanks />
-                <Footer /> */}
+            {/* <Contact /> */}
+            <Footer />
         </div>
     );
 };

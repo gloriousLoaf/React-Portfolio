@@ -1,0 +1,43 @@
+/* Footer */ 
+.footerStyle {
+    background: #17a2b8;
+    border-top: 3px solid #9fffcb;
+    color: #fff;
+    text-align: center;
+    padding-top: 1rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 3.5rem;
+}
+/* let's have some fun */ 
+.footerStyle a {
+    color: #fff;
+    text-decoration: none;
+    transition: margin 1s, font-size 1s, letter-spacing 1s;
+}
+.footerStyle a:focus {
+    outline: none;
+}
+.footerStyle a:hover, .footerStyle a:focus {
+    border-bottom: 2px solid #e75a7c;
+    margin: 0 0.25rem;
+    font-size: 1.25rem;
+    letter-spacing: 0.2rem;
+}
+/* Spin, Octocat, spin!!! */ 
+span:hover i {
+    animation: rotation 800ms 1 linear;
+}
+/* tried to make it spin on :focus too, but no dice */
+/* span:focus i {
+    animation: rotation 800ms 1 linear;
+} */
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(-359deg);
+    }
+} 
