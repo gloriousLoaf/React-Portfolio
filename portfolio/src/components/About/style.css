@@ -6,8 +6,9 @@
 #goAbout:hover, #goAbout:focus {
     outline: none;
     cursor: pointer;
-    border-bottom: 3px solid rgba(231, 90, 124, 0.8);
     font-weight: bolder;
+    border-bottom: 3px solid rgba(231, 90, 124, 0.8);
+    margin-bottom: -3px;
 }
 /* Card & Selfie styles */ 
 .col .m2, p, h5, h6 {
@@ -37,7 +38,7 @@
         text-align: center;
     }
     .card-body ul {
-        padding-left: 20px;
+        padding-left: 1.25rem;
     }
     .card-body .selfie {
         display: block;
@@ -45,6 +46,6 @@
         margin-right: auto;
     }
     .col-sm-4 {
-        padding-bottom: 20px;
+        padding-bottom: 1.25rem;
     }
 }

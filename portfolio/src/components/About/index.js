@@ -7,10 +7,8 @@ function About() {
     return (
         <div className="container mb-5" id="aboutme">
             <div className="row">
-                {/* <h3 className="text-center"><span className="haze mx-auto mt-3 text-info"
-                    tabIndex="0" id="goAbout">A b o u t &nbsp; M e</span></h3> */}
-                <h3 className="text-center haze mx-auto mt-3 text-info"
-                    tabIndex="0" id="goAbout">A b o u t &nbsp; M e</h3>
+                <h3 className="text-center haze mx-auto mt-3 text-info">
+                    <span tabIndex="0" id="goAbout">A b o u t &nbsp; M e</span></h3>
             </div>
             <div className="row mt-4">
                 <div className="col-sm-7 m-2">

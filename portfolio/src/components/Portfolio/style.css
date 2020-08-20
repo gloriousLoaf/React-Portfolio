@@ -6,8 +6,8 @@
 #goPort:hover, #goPort:focus {
     outline: none;
     cursor: pointer;
-    border-bottom: 3px solid rgba(231, 90, 124, 0.8);
     font-weight: bolder;
+    border-bottom: 3px solid rgba(231, 90, 124, 0.8);
 }
 
 /* PORTFOLIO CAROUSEL*/
@@ -41,7 +41,7 @@
         text-align: center;
     }
     .card-body ul {
-        padding-left: 20px;
+        padding-left: 1.25rem;
     } */
     /* Carousel Images */ 
     /* .card-img-top {

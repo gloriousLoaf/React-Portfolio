@@ -5,9 +5,7 @@ import Nav from './components/Nav/index.js';
 import Portfolio from './components/Portfolio/index.js';
 // import PortCard from './components/PortCard/inde.js';
 import About from './components/About/index.js';
-// import Skills from './components/Skills/index.js';
-// import Contact from './components/Contact/index.js';
-// import Thanks from './components/Thanks/index.js';
+import Contact from './components/Contact/index.js';
 import Footer from './components/Footer/index.js';
 import './App.css';
 
@@ -23,7 +21,7 @@ function App() {
             </header>
             <Portfolio />
             <About />
-            {/* <Contact /> */}
+            <Contact />
             <Footer />
         </div>
     );
