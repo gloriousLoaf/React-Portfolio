@@ -1,6 +1,6 @@
-// Hero
+// Header is combined with Nav in HeadNav
 import React from 'react';
-import './style.css'
+import './style.css';
 
 function Header() {
     return (

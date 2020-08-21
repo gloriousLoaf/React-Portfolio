@@ -1,4 +1,4 @@
-// Nav
+// Nav is combined with Header in HeadNav
 import React from 'react';
 import './style.css'
 

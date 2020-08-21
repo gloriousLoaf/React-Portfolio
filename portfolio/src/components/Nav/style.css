@@ -1,9 +1,10 @@
 /* NAV */ 
 .navbar {
-    box-shadow: 0 0 7px 3px rgba(23, 162, 184, 0.9);
+    box-shadow: 0 6px 4px 0px rgba(23, 162, 184, 0.4);
     position: relative;
     top: 80%;
     font-weight: bold;
+    padding: -4rem;
 }
 /* nav-links are unstyled buttons */ 
 .nav-link {
