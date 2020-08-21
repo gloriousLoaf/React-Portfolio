@@ -2,7 +2,7 @@
 import React from 'react';
 import './style.css'
 
-function Hero() {
+function Header() {
     return (
         <div className="content">
             <div className="title">
@@ -15,4 +15,4 @@ function Hero() {
     )
 };
 
-export default Hero;
+export default Header;

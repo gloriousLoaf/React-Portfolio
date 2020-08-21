@@ -1,0 +1,34 @@
+/* SHOWCASE / HEADER */ 
+.showcase {
+    height: 32vh;
+    width: 100%;
+    background-image: url(./Metcalf-Media.svg);
+    background-size: 557px 204px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.content {
+    position: relative;
+    top: 62%;
+}
+.content .title {
+    font-size: 2rem;
+    color: #17a2b8;
+}
+.content .text {
+    line-height: 1.7;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #17a2b8;
+}
+
+/* MOBILE */ 
+@media(max-width: 575px) {
+    /* header */ 
+    .showcase {
+        height: 28vh;
+    }
+    .content {
+        top: 65%;
+    }
+}
