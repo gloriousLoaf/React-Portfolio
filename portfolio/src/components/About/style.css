@@ -1,15 +1,4 @@
 /* ABOUT ME */ 
-/* clickable header */ 
-#goAbout {
-    border-bottom: 2px solid rgba(231, 90, 124, 0.4);
-}
-#goAbout:hover, #goAbout:focus {
-    outline: none;
-    cursor: pointer;
-    font-weight: bolder;
-    border-bottom: 3px solid rgba(231, 90, 124, 0.8);
-    margin-bottom: -3px;
-}
 /* Card & Selfie styles */ 
 .col .m2, p, h5, h6 {
     margin: 0 0.5rem;
@@ -21,13 +10,6 @@
 /* Skills card */ 
 .card-body ul {
     margin-left: 40px;
-}
-/* Home Scroll */ 
-.scroll span:hover {
-    cursor: pointer;
-    border-bottom: 2px solid #e75a7c;
-/* decrease margin so hover doesn't distort size of elements */ 
-    margin-bottom: -2px;
 }
 
 /* MOBILE */ 

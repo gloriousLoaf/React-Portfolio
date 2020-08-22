@@ -4,20 +4,16 @@
     position: relative;
     top: 80%;
     font-weight: bold;
+    margin-top: 1rem;
     padding: -4rem;
+    justify-content: center;
 }
-/* nav-links are unstyled buttons */ 
-.nav-link {
-    margin: 0 0.1rem;
-    border: none;
-    background-color: #ececec;
-    font-weight: 600;
-}
-button:focus {
-    outline: none;
+.navbar li{
+    margin-right: 0.5rem;
 }
 /* Hover / Focus Effects */ 
-.navbar-nav button:hover, .navbar-nav button:focus {
+.navbar-nav a:hover, .navbar-nav a:focus {
+    outline: none;
     cursor: pointer;
     border-bottom: 2px solid #e75a7c;
 /* decrease margin so hover doesn't distort size of elements */ 

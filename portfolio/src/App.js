@@ -1,25 +1,30 @@
 // App
 import React from 'react';
-// import Router from 'react-router-dom';
-import HeadNav from './components/HeadNav/index.js';
-import Portfolio from './components/Portfolio/index.js';
-// import PortCard from './components/PortCard/inde.js';
-import About from './components/About/index.js';
-import Contact from './components/Contact/index.js';
-import Footer from './components/Footer/index.js';
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Wrapper from './components/Wrapper';
+import Header from './components/Header';
+import Navbar from './components/Navbar';
+import Portfolio from './components/Portfolio';
+// import Project from './components/Project';
+import About from './components/About';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 import './App.css';
 
 function App() {
     return (
-        <div className="App">
-            {/* Header may become a Context, or something?
-                if so, remember to move styles! */}
-            <HeadNav />
-            <Portfolio />
-            <About />
-            <Contact />
-            <Footer />
-        </div>
+        <Router>
+            <div className="App">
+                <Header />
+                <Navbar />
+                <Wrapper>
+                    <Route exact path="/" component={Portfolio} />
+                    <Route exact path="/about" component={About} />
+                    <Route exact path="/contact" component={Contact} />
+                </Wrapper>
+                <Footer />
+            </div>
+        </Router>
     );
 };
 

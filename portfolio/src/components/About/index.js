@@ -5,13 +5,9 @@ import Me from './me.jpg';
 
 function About() {
     return (
-        <div className="container mb-5" id="aboutme">
-            <div className="row">
-                <h3 className="text-center haze mx-auto mt-3 text-info">
-                    <span tabIndex="0" id="goAbout">A b o u t &nbsp; M e</span></h3>
-            </div>
-            <div className="row mt-4">
-                <div className="col-sm-7 m-2">
+        <div className="container mt-5" id="aboutme">
+            <div className="row mt-5">
+                <div className="col-sm-7 mt-5 m-2">
                     <div className="card p-2 shadow">
                         <div className="card-body">
                             <h2>David Metcalf</h2>
@@ -37,7 +33,7 @@ function About() {
                 <div className="col"></div>
 
                 {/* Skills card, same row */}
-                <div className="col-sm-4 m-2">
+                <div className="col-sm-4 mt-5 m-2">
                     <div className="card shadow">
                         <div className="card-body">
                             <h5 className="card-title move-left">Full Stack Development</h5>
@@ -57,8 +53,6 @@ function About() {
                     </div>
                 </div>
             </div>
-            {/* tiny home link: #scroll styles it, .scrollUp for event listener */}
-            <p className="text-center mt-1 scroll"><span className="text-decoration-none text-muted scrollUp">home</span></p>
         </div>
     );
 };

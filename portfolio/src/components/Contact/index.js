@@ -5,13 +5,9 @@ import './style.css'
 
 function Contact() {
     return (
-        <div className="container mb-5" id="contact">
-            <div className="row">
-                <h3 className="text-center haze mx-auto mt-3 text-info">
-                    <span tabIndex="0" id="goContact">C o n t a c t</span></h3>
-            </div>
-            <div className="row mt-4">
-                <div className="col-sm-7 m-2">
+        <div className="container" id="contact">
+            <div className="row mt-5">
+                <div className="col-sm-7 mt-5 m-2">
                     <div className="card shadow">
                         <div className="card-body">
                             <h5 className="card-title m-1 d-flex justify-content-center text-info">Send Me a Message</h5>
@@ -66,7 +62,7 @@ function Contact() {
                 <div className="col"></div>
 
                 {/* Thank you card */}
-                <div className="col-sm-4 m-2">
+                <div className="col-sm-4 mt-5 m-2">
                     <div className="card shadow">
                         <div className="card-body">
                             <h5 className="card-title move-left">Thank you for visiting.</h5>
@@ -87,8 +83,6 @@ function Contact() {
                     </div>
                 </div>
             </div>
-            {/* tiny home link: .scroll styles it, .scrollUp for event listener */}
-            <p className="text-center mt-1 scroll"><span className="text-decoration-none text-muted scrollUp">home</span></p>
         </div>
     )
 }

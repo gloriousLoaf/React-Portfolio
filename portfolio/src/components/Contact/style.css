@@ -1,15 +1,4 @@
 /* CONTACT */ 
-/* clickable header */ 
-#goContact {
-    border-bottom: 2px solid rgba(231, 90, 124, 0.4);
-}
-#goContact:hover, #goContact:focus {
-    outline: none;
-    cursor: pointer;
-    font-weight: bolder;
-    border-bottom: 3px solid rgba(231, 90, 124, 0.8);
-    margin-bottom: -3px;
-}
 /* Contact Form */ 
 .btn-outline-info:hover {
     background-color: #e75a7c;
@@ -26,7 +15,7 @@
     font-weight: 600;
     text-decoration: none;
 }
-.scroll span:hover, .card-body a:hover {
+.card-body a:hover {
     cursor: pointer;
     border-bottom: 2px solid #e75a7c;
 /* decrease margin so hover doesn't distort size of elements */ 
