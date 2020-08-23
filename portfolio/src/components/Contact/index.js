@@ -6,7 +6,7 @@ import './style.css'
 function Contact() {
     return (
         <div className="container" id="contact">
-            <div className="row mt-5">
+            <div className="row mb-5">
                 <div className="col-sm-7 mt-5 m-2">
                     <div className="card shadow">
                         <div className="card-body">

@@ -5,8 +5,8 @@ import Me from './me.jpg';
 
 function About() {
     return (
-        <div className="container mt-5" id="aboutme">
-            <div className="row mt-5">
+        <div className="container" id="aboutme">
+            <div className="row">
                 <div className="col-sm-7 mt-5 m-2">
                     <div className="card p-2 shadow">
                         <div className="card-body">
