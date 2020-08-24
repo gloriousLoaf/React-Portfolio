@@ -29,12 +29,15 @@
     .navbar {
         padding: 0.75rem;
     }
-    .navbar-nav, .nav-item {
+    ul.navbar-nav {
         display: inline;
-        margin-left: auto;
-        margin-right: auto;
+    }
+    ul.navbar-nav li {
+        float: left;
+        list-style: none;
+
     }
     .nav-link {
-        margin: 0 0.5rem;
+        margin: 0 0.25rem;
     }
 }

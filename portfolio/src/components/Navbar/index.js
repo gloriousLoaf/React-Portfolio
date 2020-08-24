@@ -7,7 +7,7 @@ function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg navbar-light">
             <div>
-                <ul className="navbar-nav mx-auto">
+                <ul className="navbar-nav">
                     <li className="nav-item">
                         <NavLink exact to="/" className={"nav-link"}
                             activeClassName="active"
