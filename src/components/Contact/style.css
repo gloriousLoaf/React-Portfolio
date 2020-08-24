@@ -1,14 +1,4 @@
 /* CONTACT */ 
-/* Contact Form */ 
-.btn-outline-info:hover {
-    background-color: #e75a7c;
-}
-/* .try-again styles dynamically-created warnings, see storeInfo() */ 
-.try-again {
-    margin-left: 6px;
-    color: #ff0000;
-}
-
 /* Link styles */ 
 .card-body a {
     color: #262626;
@@ -25,22 +15,13 @@
     margin-bottom: -2px;
 }
 
-/* MODAL - Not real yet */ 
-/* trim it up */ 
-/* .modal-dialog {
-    max-width: 300px;
-    margin: 0 auto;
+/* UL */ 
+/* ul.contactList {
+    list-style: none;
 } */
-/* simplify and center it */ 
-/* .modal-header {
-    border-bottom: 0 none;
+.contactList li {
+    margin-bottom: 0.5rem;
 }
-.modal-footer {
-    border-top: 0 none;
-}
-.modal-footer {
-    justify-content: center;
-} */
 
 /* MOBILE */ 
 @media(max-width: 575px) {

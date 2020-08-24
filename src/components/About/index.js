@@ -17,9 +17,8 @@ function About() {
                                     <img src={Me} alt="David Metcalf" className="selfie" />
                                 </div>
                                 <div className="col m-2">
-                                    <p>I am a computer science student at Sac City College, and am training as a full stack
-                                    developer
-                                    through a bootcamp at UC Davis Continuing & Professional Education. I have
+                                    <p className="move-right">I am a computer science student at Sac City College, and am training as a full stack
+                                    developer through a bootcamp at UC Davis Continuing & Professional Education. I have
                                     managed sales teams, profits & losses, and marketing campaigns. My background in
                                     customer service will contribute a unique skill set to your development team.
                                     </p>
@@ -34,14 +33,14 @@ function About() {
 
                 {/* Skills card, same row */}
                 <div className="col-sm-4 mt-5 m-2">
-                    <div className="card shadow">
+                    <div className="card shadow" id="skills">
                         <div className="card-body">
                             <h5 className="card-title move-left">Full Stack Development</h5>
                             <h6 className="card-subtitle font-weight-light move-left">Skills updated frequently.</h6>
                             <hr />
                             <ul>
                                 <li>HTML5, CSS3, JavaScript</li>
-                                <li>Node, Express, Handlebars</li>
+                                <li>MERN Stack</li>
                                 <li>MVC, ORM, OOP</li>
                                 <li>SQL & NoSQL</li>
                                 <li>Custom APIs</li>

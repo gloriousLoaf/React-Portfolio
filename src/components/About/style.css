@@ -1,7 +1,10 @@
 /* ABOUT ME */ 
-/* Card & Selfie styles */ 
-.col .m2, p, h5, h6 {
-    margin: 0 0.5rem;
+/* Card & Selfie spacing */ 
+.col .m-2, p, h5, h6 {
+    margin-left: 0.5rem;
+}
+.move-right {
+    margin-left: 2rem;
 }
 .selfie {
     max-height: 12.5rem;
@@ -14,8 +17,13 @@
 
 /* MOBILE */ 
 @media(max-width: 575px) {
-
     /* Card text alignment and spacing */ 
+    .move-right {
+        margin: auto;
+    }
+    #skills {
+        margin-top: -1.5rem;
+    }
     .card-body h2, h5, h6 {
         text-align: center;
     }
