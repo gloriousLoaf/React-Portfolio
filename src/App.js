@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import Portfolio from './components/Portfolio';
 import About from './components/About';
 import Contact from './components/Contact';
+import NotFound from './components/404';
 import Footer from './components/Footer';
 import './App.css';
 
@@ -19,6 +20,7 @@ function App() {
                     <Route exact path="/" component={Portfolio} />
                     <Route exact path="/about" component={About} />
                     <Route exact path="/contact" component={Contact} />
+                    <Route component={NotFound} />
                 </Switch>
                 <Footer />
             </div>

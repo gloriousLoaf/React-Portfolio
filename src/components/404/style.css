@@ -1,0 +1,48 @@
+/* 404 PAGE */ 
+/* spacing and such */ 
+.jumbotron {
+    margin: 3rem 6rem;
+}
+h1 {
+    margin: 0 0 1rem 3rem;
+}
+h2 {
+    margin-left: 3rem;
+}
+h5 {
+    margin-left: 3rem;
+}
+
+/* Link styles */
+.home {
+    color: #262626;
+    font-weight: 600;
+    /* text-decoration: none; */
+    transition: letter-spacing 400ms;
+}
+.home:hover, .home:focus {
+    outline: none;
+    text-decoration: none;
+    letter-spacing: 0.07rem;
+    color: #262626;
+    border-bottom: 2px solid #e75a7c;
+/* decrease margin so hover doesn't distort size of elements */ 
+    margin-bottom: -2px;
+}
+
+/* MOBILE */ 
+@media(max-width: 575px) {
+    .jumbotron {
+        margin: 3rem 1rem;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+    h2 {
+        margin-left: 0rem;
+    }
+    h1, h5 {
+        margin-left: 0rem;
+        text-align: start;
+    }
+}

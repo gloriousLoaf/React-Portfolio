@@ -26,13 +26,12 @@
     letter-spacing: 0.2rem;
 }
 /* Spin, Octocat, spin!!! */ 
-span:hover i {
+span:focus {
+    outline: 0;
+}
+span:hover i, span a:focus i {
     animation: rotation 800ms 1 linear;
 }
-/* tried to make it spin on :focus too, but no dice */
-/* span:focus i {
-    animation: rotation 800ms 1 linear;
-} */
 @keyframes rotation {
     from {
       transform: rotate(0deg);
