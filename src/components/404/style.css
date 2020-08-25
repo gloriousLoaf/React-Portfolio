@@ -6,10 +6,8 @@
 h1 {
     margin: 0 0 1rem 3rem;
 }
-h2 {
-    margin-left: 3rem;
-}
-h5 {
+/* h2 & h5 */ 
+.left {
     margin-left: 3rem;
 }
 
