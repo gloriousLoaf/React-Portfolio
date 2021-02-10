@@ -5,6 +5,9 @@ Featured repos, About Me, and Contact Information.
 ![GitHub language count](https://img.shields.io/github/languages/count/gloriousLoaf/gloriousLoaf.github.io)
 ![GitHub top language](https://img.shields.io/github/languages/top/gloriousLoaf/gloriousLoaf.github.io)
 
+## DEPRECATED 
+**This is not the repo for my current portfolio site.** It was built as an exercise in refactoring vanilla HTML, JS & CSS into a SPA-style React app. To view my portfolio, please visit [metcalf.dev](https://metcalf.dev), which remains a simple vanilla site!
+
 ## Table of Contents
 * [Description](#-description)
 * [Installation](#-installation)
@@ -15,7 +18,6 @@ Featured repos, About Me, and Contact Information.
 <p>&nbsp;</p>
 
 ## Description
-To view this refactored, React-powered version of my portfolio, please visit [metcalf.dev](https://gloriousLoaf.github.io/React-Portfolio).
 This is a constantly updated and evolving portfolio, serving as an introduction to my work and progress in full stack development. This currently uses **React, Bootstrap, and custom stylesheets.**
 <p>&nbsp;</p>
 
